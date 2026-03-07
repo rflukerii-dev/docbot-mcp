@@ -7,13 +7,16 @@
     "docbot-mcp": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.1",
-    "@rflukerii/docbot": "^1.0.1"
+    "@rflukerii/docbot": "^1.0.1",
+    "express": "^5.2.1",
+    "zod": "^4.3.6"
   },
   "type": "module"
 }
