@@ -15,5 +15,6 @@
     "@modelcontextprotocol/sdk": "^1.27.1",
     "@rflukerii/docbot": "^1.0.1"
   },
-  "type": "module"
+  "type": "module",
+  "start": "node index.js"
 }
