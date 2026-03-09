@@ -1,6 +1,6 @@
 {
   "name": "docbot-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bidirectional CSV <> JSON <> Markdown transformer",
   "main": "index.js",
   "bin": {
