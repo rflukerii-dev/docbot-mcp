@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2026-03-09
+### Added
+- Add `mcpName` to package.json for MCP registry registration
+- Add `server.json` for MCP registry metadata
+
 ## [1.0.1] - 2026-03-07
 ### Changed
 - Migrate from stdio to HTTP transport

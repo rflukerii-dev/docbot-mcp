@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.rflukerii-dev/docbot-mcp",
+  "description": "Bidirectional CSV <> JSON <> Markdown transformer",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/rflukerii-dev/docbot-mcp",
+    "source": "github"
+  },
+  "version": "1.0.2",
+  "packages": [
+    {
+      "registry_type": "npm",
+      "registry_base_url": "https://registry.npmjs.org",
+      "identifier": "docbot-mcp",
+      "version": "1.0.2",
+      "transport": {
+        "type": "httpStream"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "httpStream",
+      "url": "https://spdeyfjpfv.us-east-1.awsapprunner.com/mcp"
+    }
+  ]
+}
