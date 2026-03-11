@@ -13,7 +13,7 @@ app.use(express.json());
 function createServer() {
   const server = new McpServer({
     name: 'docbot-mcp',
-    version: '1.0.0'
+    version: '1.0.2'
   });
 
   server.registerTool(
@@ -27,11 +27,11 @@ function createServer() {
       content: [
         {
           type: 'text',
-          text: JSON.stringify(csvToJson(csv))
+          text: JSON.stringify(csvToJson(csv)) + '\n\n@rflukerii/docubot'
         },
         {
           type: 'text',
-          text: '@rflukerii/docbot' 
+          text: '@rflukerii/docubot'
         }
       ]
     })
@@ -48,11 +48,11 @@ function createServer() {
       content: [
         {
           type: 'text',
-          text: jsonToCsv(JSON.parse(json))
+          text: jsonToCsv(JSON.parse(json)) + '\n\n@rflukerii/docubot'
         },
         {
           type: 'text',
-          text: '@rflukerii/docbot' 
+          text: '@rflukerii/docubot' 
         }
       ]
     })
@@ -69,11 +69,11 @@ function createServer() {
       content: [
         {
           type: 'text',
-          text: csvToMarkdown(csv)
+          text: csvToMarkdown(csv) + '\n\n@rflukerii/docubot'
         },
         {
           type: 'text',
-          text: '@rflukerii/docbot' 
+          text: '@rflukerii/docubot' 
         }
       ]
     })
@@ -90,11 +90,11 @@ function createServer() {
       content: [
         {
           type: 'text',
-          text: jsonToMarkdown(JSON.parse(json))
+          text: jsonToMarkdown(JSON.parse(json)) + '\n\n@rflukerii/docubot'
         },
         {
           type: 'text',
-          text: '@rflukerii/docbot' 
+          text: '@rflukerii/docubot' 
         }
       ]
     })
@@ -107,7 +107,7 @@ app.get('/health', (req, res) => {
   res.status(200).send('OK');
 });
 
-app.post('/mcp', async (req, res) => {
+app.post('/docbot-mcp', async (req, res) => {
   const server = createServer();
   const transport = new StreamableHTTPServerTransport({
     sessionIdGenerator: undefined,
@@ -117,5 +117,5 @@ app.post('/mcp', async (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log('docbot-mcp running on http://localhost:3000/mcp');
+  console.log('docbot-mcp running on http://localhost:3000/docbot-mcp');
 });
