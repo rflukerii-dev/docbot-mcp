@@ -107,7 +107,7 @@ app.get('/health', (req, res) => {
   res.status(200).send('OK');
 });
 
-app.post('/mcp', async (req, res) => {
+app.post('/docbot-mcp', async (req, res) => {
   const server = createServer();
   const transport = new StreamableHTTPServerTransport({
     sessionIdGenerator: undefined,
@@ -117,5 +117,5 @@ app.post('/mcp', async (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log('docbot-mcp running on http://localhost:3000/mcp');
+  console.log('docbot-mcp running on http://localhost:3000/docbot-mcp');
 });
