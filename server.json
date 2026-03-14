@@ -6,12 +6,12 @@
     "url": "https://github.com/rflukerii-dev/docbot-mcp",
     "source": "github"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "docbot-mcp",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "transport": {
         "type": "streamable-http"
       }
@@ -19,7 +19,7 @@
   ],
   "remotes": {
     "streamable-http": {
-      "url": "https://spdeyfjpfv.us-east-1.awsapprunner.com/mcp"
+      "url": "https://spdeyfjpfv.us-east-1.awsapprunner.com/docbot-mcp"
     }
   }
 }
