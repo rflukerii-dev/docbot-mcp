@@ -1,0 +1,21 @@
+ID,First Name,Last Name,Email,Department,Job Title,Salary,Hire Date,Manager,Status
+1,John,Smith,john.smith@company.com,Engineering,Senior Developer,125000,2019-03-15,Alice Johnson,Active
+2,Sarah,Johnson,sarah.johnson@company.com,Marketing,Marketing Manager,95000,2020-06-20,Bob Wilson,Active
+3,Michael,Davis,michael.davis@company.com,Sales,Sales Executive,105000,2018-11-10,Carol White,Active
+4,Emily,Brown,emily.brown@company.com,HR,HR Specialist,72000,2021-01-25,David Green,Active
+5,David,Wilson,david.wilson@company.com,Engineering,Junior Developer,65000,2022-08-05,Alice Johnson,Active
+6,Jessica,Martinez,jessica.martinez@company.com,Finance,Finance Analyst,78000,2020-02-14,Edward Black,Active
+7,Robert,Anderson,robert.anderson@company.com,Operations,Operations Manager,98000,2019-09-30,Frank Gray,Active
+8,Lisa,Taylor,lisa.taylor@company.com,Marketing,Content Creator,68000,2021-04-12,Bob Wilson,Active
+9,James,Thomas,james.thomas@company.com,Sales,Sales Representative,72000,2021-11-08,Carol White,Active
+10,Patricia,Jackson,patricia.jackson@company.com,Engineering,DevOps Engineer,115000,2020-05-18,Alice Johnson,Active
+11,Christopher,White,christopher.white@company.com,Finance,Senior Accountant,92000,2019-07-22,Edward Black,Active
+12,Nancy,Harris,nancy.harris@company.com,HR,Recruiter,71000,2021-09-15,David Green,Active
+13,Daniel,Martin,daniel.martin@company.com,Operations,Logistics Coordinator,61000,2022-03-28,Frank Gray,Active
+14,Karen,Thompson,karen.thompson@company.com,Marketing,Social Media Manager,65000,2022-01-10,Bob Wilson,Active
+15,Paul,Garcia,paul.garcia@company.com,Sales,Account Executive,88000,2020-10-05,Carol White,Active
+16,Betty,Lee,betty.lee@company.com,Engineering,QA Engineer,82000,2021-06-14,Alice Johnson,Active
+17,Mark,Perez,mark.perez@company.com,Finance,Budget Analyst,75000,2021-12-06,Edward Black,Active
+18,Susan,Edwards,susan.edwards@company.com,HR,Training Manager,84000,2020-08-17,David Green,Active
+19,Donald,Collins,donald.collins@company.com,Operations,Supply Chain Manager,101000,2019-04-09,Frank Gray,Active
+20,Margaret,Stewart,margaret.stewart@company.com,Sales,Regional Manager,110000,2018-02-19,Carol White,Active
