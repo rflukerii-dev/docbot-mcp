@@ -6,14 +6,14 @@
     "url": "https://github.com/rflukerii-dev/docbot-mcp",
     "source": "github"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "docbot-mcp",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "transport": {
-        "type": "streamable-http"
+        "type": "stdio"
       }
     }
   ]

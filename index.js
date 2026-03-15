@@ -13,7 +13,7 @@ app.use(express.json());
 function createServer() {
   const server = new McpServer({
     name: 'docbot-mcp',
-    version: '1.0.4'
+    version: '1.0.5'
   });
 
   server.registerTool(
