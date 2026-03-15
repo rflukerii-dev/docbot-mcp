@@ -8,8 +8,9 @@
     "docbot-mcp": "./index.js"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "version": "node scripts/sync-version.js"
   },
   "author": "",
   "license": "MIT",
