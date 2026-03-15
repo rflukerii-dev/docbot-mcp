@@ -16,5 +16,10 @@
         "type": "streamable-http"
       }
     }
-  ]
+  ],
+  "remotes": {
+    "streamable-http": {
+      "url": "https://spdeyfjpfv.us-east-1.awsapprunner.com/docbot-mcp"
+    }
+  }
 }
