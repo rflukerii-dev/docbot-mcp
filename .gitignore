@@ -1,4 +1,14 @@
+# Dependencies
 node_modules/
+
+# Environment & secrets
 .env
-*.log
 .npmrc
+.mcpregistry_github_token
+.mcpregistry_registry_token
+
+# Tools
+mcp-publisher.exe
+
+# Logs
+*.log
