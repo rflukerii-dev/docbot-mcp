@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2026-03-15
+### Changed
+- Switch transport back to stdio for Official MCP Registry
+- Hide App Runner URL from server settings
+
 ## [1.0.4] - 2026-03-15
 ### Changed
 - Move sample data into `data/` subfolder for better organization
