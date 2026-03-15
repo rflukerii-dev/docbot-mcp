@@ -1,6 +1,6 @@
 {
   "name": "docbot-mcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "mcpName": "io.github.rflukerii-dev/docbot-mcp",
   "description": "Bidirectional CSV <> JSON <> Markdown transformer",
   "main": "index.js",
